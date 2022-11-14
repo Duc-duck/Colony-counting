@@ -44,6 +44,6 @@ while camera.IsGrabbing():
         break
     if cv2.waitKey(1) &0xFF == ord('q'):
         break
-cv2.destroyAllWindows()
+cv2.destroyAllWindows()#
 camera.Close()
 grab.Release()
